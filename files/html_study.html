@@ -1,0 +1,184 @@
+<!--  https://blog.naver.com/tt2t2am1118/223426931581에 참조자료. 작성자: 최현일.  학원에서 공부한 내용. UI/UX. -->
+
+
+<!--관례적으로 소문자로 작성. 태그 -->
+<!-- 속성을 부여하지 않은 경우. 웹 브라우져 기본값으로 작동함.-->
+<h1>오늘 날씨는?</h1>
+<p>비가 주르륵 내려요~.</p> <!-- Ctrl + Enter, 실행. jsfiddle.net. -->
+
+<!-- 중첩 태그인 경우, 의도적으로 탭을 눌려서 들여쓰기를 하는 것이 좋음. 가독성 향상 -->
+<!-- 특성을 부여, 색상, 사이즈 등 가능 -->
+<p>
+  <img src="https://jcoop.xyz/images/logo_03.jpg"/> 
+  <img src="http://resrc.devdic.com/img/bykind/alpha/150x135_flower.png">  <!-- 속성="값". src. 소스의 약자. http라서, 그림파일이 나오지 않을 수 있습니다. --> 
+</p>
+<!-- doc 타입 작성, body, head... . jsfiddle.net에서는 작성하지 않아도 됨. !-->
+<p>
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</p>
+
+
+
+<!-- div, span. 공간을 나누는 태그. -->
+<!-- 특별한 성질이 없음 p태그는 간격이 있음.  css로 레이아웃을 만들어야 함. -->
+
+<div></div>
+
+<span></span>
+
+<!-- 단락(p)과 단락은 간격이 있음-->
+<p>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</p>
+<p>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</p>
+
+
+
+
+
+
+
+
+
+<!-- 목록태그. 기본적인 디자인 성질을 가지고 있음. css로 변경 가능. -->
+
+
+<!-- Unordered List. 정렬이 안된 목록을 만듬. 점이 나온다. -->
+<!-- ul 태그에는 li태그밖에 올 수 없음. list item. 항목의 배치. -->
+<ul> 
+  <li>사과</li>
+  <li>배</li>
+</ul>
+
+
+<!--   Ordered List  순서가 있음. 1, 2 3. 숫자가 나옴. -->
+<ol> 
+  <li>사과</li>
+  <li>배</li>
+</ol>
+
+<!-- Defition list. 정의형 목록.  dt. 정의할 제목을 작성. dd. 정의형 데이터 -->
+
+<!-- 표 작성. 엑셀데이터의 표.-->
+<table>
+<thead>
+  <tr><td></td></tr>
+</thead>
+<tbody>
+  <tr><td></td></tr>
+</tbody>
+</table>
+
+<!-- 폼, 회원가입, 로그인, 콤보박스 등. -->
+<form>
+  <input><select><option></option></select><textarea></textarea>
+</form>
+
+
+
+
+
+
+
+
+
+
+<!-- HTML 태그, HTML5를 생각해서 -->
+<!-- 공간 분할 -->
+<header></header>  <main></main>  <footer></footer>
+<aside></aside> <!-- 측면. aside.  컨테이너가 aside일 경우. 배너 등-->
+
+<!--본문 작성 <main><section>제목, 단락<section></main> -->
+<section></section>, <article></article>
+
+<div class="section1"></div>
+<div class="article1"></div>
+
+<section class="section1"></section>
+<article lass="article1"></article>
+
+<!-- html 레이아웃 -->
+<!--요소를 구성하는 식별값  심미적 디자인, 레이아웃 배치를 할 때 사용. class속성. 관례에 따라 작업. -->
+<div class="header">
+
+</div>
+<div class="main">
+
+</div>
+<div class="footer">
+
+</div>
+
+<header class="header">
+  
+</header>  <!-- 약어를 쓰지 않음 HTML5부터. Simentic 태그. 의미태그. 마케팅, HTML리더기 범용사용에 좋음. -->
+<!-- 로봇이 자료를 수집할 때, main부분의 내용을 가져감 편의성 측면에서 사용. 시멘틱 태그.-->
+
+
+
+
+
+
+
+<!-- Attribute. -->
+
+<!-- <태그 이름 tribute="값" , ... /> -->
+
+<!-- id, class 모든 태그들이 공통으로 사용. 요소를 식별하는 식별 값. 공통 Attribute-->
+<!-- 같은 값 가능 중복성 class, id는 1개밖에 만들 수 없음. 디자인이나 공간배치의 이름을 주기. id가 중복되어도 실행은 됨. 그럴 경우 class로 설정하자. -->
+
+<!-- 가시성 태그(화면에 직접보여주는 태그), 비 가시성 태그 속성 title.-->
+
+<!-- 가시성 태그에만 사용되는 공통 attiribute. -->
+
+<!-- src, 이미지경로. src를 사용하는 태그 그룹이 있음. -->
+<img id="header-logo" class="header-logo" src="" title="My website" alt="logo"/>
+
+<!-- title속성. 마우스를 가져다가 데면, 글자로 표시가 나옴. ... 브라우저별로 다를 수 있음.-->
+ <img src="http://resrc.devdic.com/img/bykind/alpha/150x135_flowr.png" title="Yellow rose" />  
+
+<!-- alt 속성. 이미지가 깨졌을 경우라던지 텍스트를 대신 출력해줌. 로봇이 가져가기 쉬움. -->
+ <img src="http://resrc.devdic.com/img/bykind/alpha/150x135_flowe.png" 
+   title="Yellow rose" alt="노란 장미" />  
+
+<!-- class의 경우, 2개 이상의 이름이 가능 -->
+<div class="main contents"></div>
+
+
+
+<!-- 주석문의 예 -->
+
+<!-- 주석문 -->
+
+
+<!-- 주석문입니다.
+
+내용이 가시성으로 보여지지 않음. 웹브라우저에서 출력되지 않음.
+
+만든 사람, 출처, 설명 등을 달아두기. 분석이 쉬워짐. 개발이 잘될 가능성이 있음. 
+유지보수 장점, 협업할 때 장점이 있음.
+
+-->
+
+
+
+
+<p>
+  <!--
+  alt 애트리뷰트는 이미지가 어떠한 이유에서 로드되지 못할 때
+  이미지 대신 텍스트를 화면에 보여준다.
+  -->
+  <!-- example -->
+  
+ 
+  
+  <img src="https://jcoop.xyz/images/logo_03.jpg"/> 
+  <img src="http://resrc.devdic.com/img/bykind/alpha/150x135_flower.png">  <!-- 속성="값". src. 소스의 약자. --> 
+</p>
+
+<!-- 주석문 다는 방식은 다다르다. html 일 경우. -->
+
+
+<br/><br/><br/><br/><br/><br/><br/><br/>
