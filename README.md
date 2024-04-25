@@ -1,2 +1,13 @@
-# learningLectureIT
-html,webDesign,학원다니기,WebPrograming
+
+
+---
+스마트기기. 안전하게 사용합시다. ; Let's safely use smartphones, etc.
+---
+좋은 습관을 만들어요.
+
+학원에서 공부하고 있는 내용을 적어봤습니다. 
+
+공부해보세요. 재미있네요~. 좋은 하루되세요.
+
+---
+저의 Github, 봐 주셔서 감사합니다.
